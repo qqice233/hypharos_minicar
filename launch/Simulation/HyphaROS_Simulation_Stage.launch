@@ -11,7 +11,7 @@
 
     <!--  ************** Map Server **************  -->
     <node name="map_server" pkg="map_server" type="map_server" args="$(find hypharos_minicar)/launch/Simulation/maps/maze.yaml" output="screen">
-        <param name="frame_id" value="/map"/>
+        <param name="frame_id" value="map"/>
     </node>
 
     <!--  ************** Localization **************  -->
